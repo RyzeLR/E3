@@ -119,7 +119,7 @@ body {
 }
 
 button {
-  max-width: 1200px;
+  width: 300px;
   border: transparent;
   cursor: pointer;
 }
@@ -169,10 +169,6 @@ button {
 /* MEDIAQUERIES */
 
 @media (max-width: 992px) {
-  body {
-    background: crimson;
-  }
-
   #hero {
     flex-direction: column;
     width: 100%;
@@ -184,5 +180,9 @@ button {
   .info {
     align-items: center;
     text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
   }
 }
